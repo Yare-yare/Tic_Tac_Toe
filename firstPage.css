@@ -1,0 +1,30 @@
+body{
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2F4F4F;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#title{
+    border: 1px solid #5F9EA0;
+    font-weight: 900;
+    font-style: italic;
+    padding: 2px;
+    border-radius: 1rem;
+}
+
+#button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    background-color: #5F9EA0;
+}
+
+.whole{
+    color: burlywood
+}
+

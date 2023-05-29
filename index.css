@@ -1,0 +1,36 @@
+body{
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2F4F4F;
+    flex-direction: column;
+}
+
+.title{
+    border: 1px solid #5F9EA0;
+    font-weight: 900;
+    font-style: italic;
+    padding: 2px;
+    border-radius: 1rem;
+}
+
+#grid{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns:repeat(3,1fr);
+    height: 500px;
+    width: 500px;
+    background-color:#DEB887;
+    color: burlywood;
+    gap: 2px;
+}
+
+.gridItem{
+    background-color: #2F4F4F;  /* Dark Slate Gray - the color of grid items */
+    color: #DEB887;  /* Burlywood - the color of text */
+}
+
+.gridItem:hover{
+    background-color: #2f4646;
+}
