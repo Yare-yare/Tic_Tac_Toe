@@ -60,7 +60,8 @@ const gridItemClicked = (gridItem, i) => {
       if (gameboard.winnerChecker()) {
         //bascially saying here, run everything, wait for the ui to fully be displayed and then alert the winner
         setTimeout(() => {
-          alert(`${nextValue} Won!!!`);
+          let message = `${nextValue} Won!!!`.toUpperCase();
+          alert(message);
           //clear the board tiles and everything in them
           document.querySelectorAll(".gridItem").forEach((button) => {
             button.innerText = "";
@@ -68,6 +69,8 @@ const gridItemClicked = (gridItem, i) => {
           gameboard.reset();
         }, 0);
       }
+    } else if (gridItem.innerText && gameboard.winnerChecker() == false) {
+      alert("Tie");
     }
   });
 };

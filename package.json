@@ -1,0 +1,23 @@
+{
+  "name": "tic_tac_toe",
+  "version": "1.0.0",
+  "description": "https://yare-yare.github.io/Tic_Tac_Toe/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yare-yare/Tic_Tac_Toe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yare-yare/Tic_Tac_Toe/issues"
+  },
+  "homepage": "https://github.com/Yare-yare/Tic_Tac_Toe#readme",
+  "keywords": [],
+  "devDependencies": {
+    "webpack-cli": "^5.1.4"
+  }
+}
